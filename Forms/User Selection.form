@@ -1,0 +1,49 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "7cdbf73"
+  },
+  "schemaVersion": 16,
+  "id": "Form_17vlceg",
+  "components": [
+    {
+      "text": "# Add the users\n",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0hsve3a",
+        "columns": null
+      },
+      "id": "Field_0caepiz"
+    },
+    {
+      "components": [
+        {
+          "label": "Username",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_11fyqli",
+            "columns": null
+          },
+          "id": "Field_1qjcip0",
+          "key": "username"
+        }
+      ],
+      "showOutline": true,
+      "isRepeating": true,
+      "allowAddRemove": true,
+      "defaultRepetitions": 1,
+      "label": "User List",
+      "type": "dynamiclist",
+      "layout": {
+        "row": "Row_1dr75y5",
+        "columns": null
+      },
+      "id": "Field_09cfc33",
+      "path": "userList"
+    }
+  ],
+  "type": "default"
+}
